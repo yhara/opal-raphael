@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    opal-raphael (0.0.1)
+    opal-raphael (0.0.2)
       opal (>= 0.4.4)
 
 GEM
