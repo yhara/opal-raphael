@@ -42,3 +42,8 @@ Getting started
 Then you'll see:
 
 ![](http://gyazo.com/6c9965d12d5ad8f10667e81281866f5f.png)
+
+Caveats
+-------
+
+Currently does not work well with opal-jquery (see https://github.com/opal/opal/issues/547 )
