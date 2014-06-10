@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    opal-raphael (0.0.1)
+      opal (>= 0.4.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -10,7 +16,6 @@ GEM
     opal-rspec (0.3.0.beta3)
       opal (>= 0.6.0, < 1.0.0)
     rack (1.5.2)
-    rake (10.3.2)
     source_map (3.0.1)
       json
     sprockets (2.12.1)
@@ -24,5 +29,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  opal-rspec (= 0.3.0.beta3)
-  rake
+  opal-raphael!
+  opal-rspec (>= 0.3.0.beta3)
