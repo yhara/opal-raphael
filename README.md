@@ -16,13 +16,23 @@ Example
   background.attr("stroke", "#efefef")
 ```
 
-See example/app/application.rb for full code.
+See example/app/application.rb for full example.
 
 Status
 ------
 
-Early alpha - does work, but lacking almost everything
-(Waiting for your pull request!) 
+Early alpha 
+
+* Can render circle and rect
+* `Animation`, `Matrix`, `Raphael.*`, `Set`, `eve` are not supported
+  (Waiting for your pull request!) 
+
+See opal/opal-raphael.rb for list of supported methods.
+
+* (Note1: some of the methods may return raw JS object.
+  It should be wrapped with `Raphael::Element`, etc.)
+* (Note2: method names are intentionally kept lowerCamelCase, so that
+  you can find corresponding Opal method easily)
 
 Getting started
 ---------------
@@ -47,3 +57,11 @@ Caveats
 -------
 
 Currently does not work well with opal-jquery (see https://github.com/opal/opal/issues/547 )
+
+History
+-------
+
+* v0.0.2 (2014/06/10)
+  * Add some methods
+* v0.0.1 (2014/06/10)
+  * initial release
