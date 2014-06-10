@@ -17,4 +17,5 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'opal', '>= 0.4.4'
   s.add_development_dependency 'opal-rspec', '>= 0.3.0.beta3'
+  s.add_development_dependency 'rake'
 end
