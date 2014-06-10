@@ -30,14 +30,8 @@ Getting started
 1. Copy example/* to somewhere
 
 2. Edit Gemfile
-
-before:
-
-`gem 'opal-raphael', path: '../'`
-
-after:
-
-`gem 'opal-raphael'`
+  * before: `gem 'opal-raphael', path: '../'`
+  * after: `gem 'opal-raphael'`
 
 3. `bundle install`
 
